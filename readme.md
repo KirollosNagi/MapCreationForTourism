@@ -47,6 +47,6 @@ pip install requests geopy folium
 
 - `map.py`: Your main Python script.
 - `api.txt`: File containing your Google Maps API key.
-- `attractions.txt`: File containing the list of attraction places.
+- `attractions.txt`: File containing the list of attraction places. This file supports the use UTF-8 encoding which enable the use of Arabic scripts.
 - `city.txt`: Optional file specifying the city for improved geocoding.
 - Generated HTML files: Tourist maps created by the script.
