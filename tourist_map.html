@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8f74a6ab48aaf02cb78e0ee424f81337 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8f74a6ab48aaf02cb78e0ee424f81337" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8f74a6ab48aaf02cb78e0ee424f81337 = L.map(
+                "map_8f74a6ab48aaf02cb78e0ee424f81337",
+                {
+                    center: [25.241356, 55.269841],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0888c0b0f206027f37ea53a3f0aae81a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0888c0b0f206027f37ea53a3f0aae81a.addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+            var marker_050134e0784c6ea41b7aae648dabce3e = L.marker(
+                [25.241356, 55.269841],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_2f134753d779724357b3c69b5919bfcc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_010f21c15cc756ecf963b226d901e956 = $(`<div id="html_010f21c15cc756ecf963b226d901e956" style="width: 100.0%; height: 100.0%;">Etihad Museum</div>`)[0];
+                popup_2f134753d779724357b3c69b5919bfcc.setContent(html_010f21c15cc756ecf963b226d901e956);
+            
+        
+
+        marker_050134e0784c6ea41b7aae648dabce3e.bindPopup(popup_2f134753d779724357b3c69b5919bfcc)
+        ;
+
+        
+    
+    
+            var marker_c52185969eb37ef3937f92cdb75a9153 = L.marker(
+                [25.195677, 55.275182],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_ad1821b86e7f9387d1853239ee7df5b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29cb0831e429d1897ab48923bb98f1a5 = $(`<div id="html_29cb0831e429d1897ab48923bb98f1a5" style="width: 100.0%; height: 100.0%;">Fountain Boardwalk </div>`)[0];
+                popup_ad1821b86e7f9387d1853239ee7df5b6.setContent(html_29cb0831e429d1897ab48923bb98f1a5);
+            
+        
+
+        marker_c52185969eb37ef3937f92cdb75a9153.bindPopup(popup_ad1821b86e7f9387d1853239ee7df5b6)
+        ;
+
+        
+    
+    
+            var marker_6506ecce65e7d5d8f12bc83f31c2b191 = L.marker(
+                [25.2673114, 55.3175209],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_5c18efe2ed4889eae94ad26269d7a858 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec535bae0e9b98bf99ad8983706e0fc1 = $(`<div id="html_ec535bae0e9b98bf99ad8983706e0fc1" style="width: 100.0%; height: 100.0%;">Bowling game at Glitch Arabia</div>`)[0];
+                popup_5c18efe2ed4889eae94ad26269d7a858.setContent(html_ec535bae0e9b98bf99ad8983706e0fc1);
+            
+        
+
+        marker_6506ecce65e7d5d8f12bc83f31c2b191.bindPopup(popup_5c18efe2ed4889eae94ad26269d7a858)
+        ;
+
+        
+    
+    
+            var marker_7c845565f5d034ca358b8091d18012f3 = L.marker(
+                [24.9579096, 55.15064229999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_7798c0337acf1601ac5b25d80187c478 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd8d6c7395b96a94ee680d8bb10f66bb = $(`<div id="html_dd8d6c7395b96a94ee680d8bb10f66bb" style="width: 100.0%; height: 100.0%;">Garden in the Sky</div>`)[0];
+                popup_7798c0337acf1601ac5b25d80187c478.setContent(html_dd8d6c7395b96a94ee680d8bb10f66bb);
+            
+        
+
+        marker_7c845565f5d034ca358b8091d18012f3.bindPopup(popup_7798c0337acf1601ac5b25d80187c478)
+        ;
+
+        
+    
+    
+            var marker_e13f67aa013afc4969e6e3a5f3849f76 = L.marker(
+                [25.2354522, 55.30034089999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_02bdbcc8d7c68f2df7bc6f77ec2da00c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da2711273c95eafb71be4447b392a887 = $(`<div id="html_da2711273c95eafb71be4447b392a887" style="width: 100.0%; height: 100.0%;">Dubai Frame</div>`)[0];
+                popup_02bdbcc8d7c68f2df7bc6f77ec2da00c.setContent(html_da2711273c95eafb71be4447b392a887);
+            
+        
+
+        marker_e13f67aa013afc4969e6e3a5f3849f76.bindPopup(popup_02bdbcc8d7c68f2df7bc6f77ec2da00c)
+        ;
+
+        
+    
+    
+            var marker_d8f501f8e736ae0d16bb4b3ba6608b91 = L.marker(
+                [25.1951554, 55.2751579],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_5cdae16fe84284fdeabff3b9ae9c198d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c305441e266ee52ecaa5454180bca674 = $(`<div id="html_c305441e266ee52ecaa5454180bca674" style="width: 100.0%; height: 100.0%;">Dubai Mall Fountain</div>`)[0];
+                popup_5cdae16fe84284fdeabff3b9ae9c198d.setContent(html_c305441e266ee52ecaa5454180bca674);
+            
+        
+
+        marker_d8f501f8e736ae0d16bb4b3ba6608b91.bindPopup(popup_5cdae16fe84284fdeabff3b9ae9c198d)
+        ;
+
+        
+    
+    
+            var marker_ba08f31475592bf461b61dbb2920de94 = L.marker(
+                [25.1137006, 55.13978119999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_5738716f24c3e3be475bbb90ea5d27fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c060a67c259e29d50c117a43d6c7a477 = $(`<div id="html_c060a67c259e29d50c117a43d6c7a477" style="width: 100.0%; height: 100.0%;">The View At The Palm</div>`)[0];
+                popup_5738716f24c3e3be475bbb90ea5d27fd.setContent(html_c060a67c259e29d50c117a43d6c7a477);
+            
+        
+
+        marker_ba08f31475592bf461b61dbb2920de94.bindPopup(popup_5738716f24c3e3be475bbb90ea5d27fd)
+        ;
+
+        
+    
+    
+            var marker_61a2905831b184275aee3c93137ca64d = L.marker(
+                [25.2009344, 55.2704392],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_cbb262854626a0c58206188afc3eaa5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f8e5a991c522cdb1eb758f0a0353aca2 = $(`<div id="html_f8e5a991c522cdb1eb758f0a0353aca2" style="width: 100.0%; height: 100.0%;">Sky Views Observatory</div>`)[0];
+                popup_cbb262854626a0c58206188afc3eaa5f.setContent(html_f8e5a991c522cdb1eb758f0a0353aca2);
+            
+        
+
+        marker_61a2905831b184275aee3c93137ca64d.bindPopup(popup_cbb262854626a0c58206188afc3eaa5f)
+        ;
+
+        
+    
+    
+            var marker_1ee30b17674fd0541207305142fbf7cb = L.marker(
+                [25.1972295, 55.279747],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_ffa37357885b7d25675ad293f7cab820 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08d0c01b8871e680514261d7980581cb = $(`<div id="html_08d0c01b8871e680514261d7980581cb" style="width: 100.0%; height: 100.0%;">Dubai Mall </div>`)[0];
+                popup_ffa37357885b7d25675ad293f7cab820.setContent(html_08d0c01b8871e680514261d7980581cb);
+            
+        
+
+        marker_1ee30b17674fd0541207305142fbf7cb.bindPopup(popup_ffa37357885b7d25675ad293f7cab820)
+        ;
+
+        
+    
+    
+            var marker_9a821e405874b69082a6155a586c1fe0 = L.marker(
+                [25.0637, 55.1573],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_08ebcf7b1e2f8ac6504aabf7671c20c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3ae63664b2d73421b6253a0b2a15f76 = $(`<div id="html_a3ae63664b2d73421b6253a0b2a15f76" style="width: 100.0%; height: 100.0%;">The Meadows Village</div>`)[0];
+                popup_08ebcf7b1e2f8ac6504aabf7671c20c7.setContent(html_a3ae63664b2d73421b6253a0b2a15f76);
+            
+        
+
+        marker_9a821e405874b69082a6155a586c1fe0.bindPopup(popup_08ebcf7b1e2f8ac6504aabf7671c20c7)
+        ;
+
+        
+    
+    
+            var marker_8bc63326c955f9848f634b16a8fa6959 = L.marker(
+                [25.2634611, 55.3046727],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_d5f2283e0224aa583d6276cfec4cccef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2f62217b3f5d95821666bdc2f8ea818 = $(`<div id="html_a2f62217b3f5d95821666bdc2f8ea818" style="width: 100.0%; height: 100.0%;">Al Fahidi & Al Seef St </div>`)[0];
+                popup_d5f2283e0224aa583d6276cfec4cccef.setContent(html_a2f62217b3f5d95821666bdc2f8ea818);
+            
+        
+
+        marker_8bc63326c955f9848f634b16a8fa6959.bindPopup(popup_d5f2283e0224aa583d6276cfec4cccef)
+        ;
+
+        
+    
+    
+            var marker_f60f339734e856067f1b219ea3b842d0 = L.marker(
+                [25.079979, 55.12227069999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_54990a44d09b08fd734b426be0be8b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6c67bda14c486b758af3d943185f51a = $(`<div id="html_e6c67bda14c486b758af3d943185f51a" style="width: 100.0%; height: 100.0%;">BlueWaters island</div>`)[0];
+                popup_54990a44d09b08fd734b426be0be8b2c.setContent(html_e6c67bda14c486b758af3d943185f51a);
+            
+        
+
+        marker_f60f339734e856067f1b219ea3b842d0.bindPopup(popup_54990a44d09b08fd734b426be0be8b2c)
+        ;
+
+        
+    
+    
+            var marker_bb3b7f4c5bced1179581947df0eceab7 = L.marker(
+                [25.0754093, 55.1313156],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_5d4da29b5423a001def09f6ca59231df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea80ebdfef89926771d4b8a419113f77 = $(`<div id="html_ea80ebdfef89926771d4b8a419113f77" style="width: 100.0%; height: 100.0%;">The Beach JBR</div>`)[0];
+                popup_5d4da29b5423a001def09f6ca59231df.setContent(html_ea80ebdfef89926771d4b8a419113f77);
+            
+        
+
+        marker_bb3b7f4c5bced1179581947df0eceab7.bindPopup(popup_5d4da29b5423a001def09f6ca59231df)
+        ;
+
+        
+    
+    
+            var marker_e554b649ace19af4f95d29b12fb91206 = L.marker(
+                [24.7846879, 56.1133535],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_d29f34a1bef1caafb5916e2acd158f10 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08a77a18afd56156a2d88e61e41bcdd5 = $(`<div id="html_08a77a18afd56156a2d88e61e41bcdd5" style="width: 100.0%; height: 100.0%;">Hatta Dam</div>`)[0];
+                popup_d29f34a1bef1caafb5916e2acd158f10.setContent(html_08a77a18afd56156a2d88e61e41bcdd5);
+            
+        
+
+        marker_e554b649ace19af4f95d29b12fb91206.bindPopup(popup_d29f34a1bef1caafb5916e2acd158f10)
+        ;
+
+        
+    
+    
+            var marker_cca85749c94cb71069a842056fcb8f30 = L.marker(
+                [25.101544, 55.2398817],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_53198858b582b2e86696a9d0d4e3e436 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bacb6842bfc5614ba2c2ab292c075997 = $(`<div id="html_bacb6842bfc5614ba2c2ab292c075997" style="width: 100.0%; height: 100.0%;">Dubai Hills Mall</div>`)[0];
+                popup_53198858b582b2e86696a9d0d4e3e436.setContent(html_bacb6842bfc5614ba2c2ab292c075997);
+            
+        
+
+        marker_cca85749c94cb71069a842056fcb8f30.bindPopup(popup_53198858b582b2e86696a9d0d4e3e436)
+        ;
+
+        
+    
+    
+            var marker_c70752d098af7b10f98c600a088159e0 = L.marker(
+                [25.0848952, 55.1489261],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_ad23eb29f1bf57693eb732e0c3adeeaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3d77a8e10353a77c2062bde3299a58f = $(`<div id="html_e3d77a8e10353a77c2062bde3299a58f" style="width: 100.0%; height: 100.0%;">Dubai Marina Walk</div>`)[0];
+                popup_ad23eb29f1bf57693eb732e0c3adeeaf.setContent(html_e3d77a8e10353a77c2062bde3299a58f);
+            
+        
+
+        marker_c70752d098af7b10f98c600a088159e0.bindPopup(popup_ad23eb29f1bf57693eb732e0c3adeeaf)
+        ;
+
+        
+    
+    
+            var marker_9e1e2458541406c5d20e529bd63e669c = L.marker(
+                [25.2402549, 55.4718313],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_a7f5a265fdde8a1f53e4600bca2ffd82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32dec2c1fe4673a430e2a9c682cd7c8f = $(`<div id="html_32dec2c1fe4673a430e2a9c682cd7c8f" style="width: 100.0%; height: 100.0%;">Glass House Quranic Park</div>`)[0];
+                popup_a7f5a265fdde8a1f53e4600bca2ffd82.setContent(html_32dec2c1fe4673a430e2a9c682cd7c8f);
+            
+        
+
+        marker_9e1e2458541406c5d20e529bd63e669c.bindPopup(popup_a7f5a265fdde8a1f53e4600bca2ffd82)
+        ;
+
+        
+    
+    
+            var marker_6eeb170986c41505df3236f9011ed6a4 = L.marker(
+                [25.0594308, 55.2422468],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_9b3744bb93ee569168f8cb683d15a941 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27c62ffeb8e2e1011147214a738a6657 = $(`<div id="html_27c62ffeb8e2e1011147214a738a6657" style="width: 100.0%; height: 100.0%;">Vincitore Boulevard</div>`)[0];
+                popup_9b3744bb93ee569168f8cb683d15a941.setContent(html_27c62ffeb8e2e1011147214a738a6657);
+            
+        
+
+        marker_6eeb170986c41505df3236f9011ed6a4.bindPopup(popup_9b3744bb93ee569168f8cb683d15a941)
+        ;
+
+        
+    
+    
+            var marker_cbb0c33a5dcf433bd6a53b06862b4522 = L.marker(
+                [25.1945448, 55.3641298],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_7a7c064e1a5255359417c0b2392c0fe9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4621fc9aacbeb7c443f9e6ac76e44315 = $(`<div id="html_4621fc9aacbeb7c443f9e6ac76e44315" style="width: 100.0%; height: 100.0%;">Ras Al Khor Wildlife Sanctuary</div>`)[0];
+                popup_7a7c064e1a5255359417c0b2392c0fe9.setContent(html_4621fc9aacbeb7c443f9e6ac76e44315);
+            
+        
+
+        marker_cbb0c33a5dcf433bd6a53b06862b4522.bindPopup(popup_7a7c064e1a5255359417c0b2392c0fe9)
+        ;
+
+        
+    
+    
+            var marker_a33fabce1836bc67b3e52cbaf832a4c7 = L.marker(
+                [25.2192034, 55.2819328],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_9d784fe1965a11f18fd44935df25d6e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1121b6dffe0a7a455b87e24217dde004 = $(`<div id="html_1121b6dffe0a7a455b87e24217dde004" style="width: 100.0%; height: 100.0%;">Museum of the Future</div>`)[0];
+                popup_9d784fe1965a11f18fd44935df25d6e6.setContent(html_1121b6dffe0a7a455b87e24217dde004);
+            
+        
+
+        marker_a33fabce1836bc67b3e52cbaf832a4c7.bindPopup(popup_9d784fe1965a11f18fd44935df25d6e6)
+        ;
+
+        
+    
+    
+            var marker_484e89e199bc9cbb7eff5e6abc3ea1d2 = L.marker(
+                [25.1395254, 55.2200619],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_2936e5984b1de56f8af71a96a3206704 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e9d985c86d2e7252315a27df61921b1 = $(`<div id="html_6e9d985c86d2e7252315a27df61921b1" style="width: 100.0%; height: 100.0%;">ChillOut Ice Lounge</div>`)[0];
+                popup_2936e5984b1de56f8af71a96a3206704.setContent(html_6e9d985c86d2e7252315a27df61921b1);
+            
+        
+
+        marker_484e89e199bc9cbb7eff5e6abc3ea1d2.bindPopup(popup_2936e5984b1de56f8af71a96a3206704)
+        ;
+
+        
+    
+    
+            var marker_a5467580db756de56d621c07c45a50e9 = L.marker(
+                [25.2074895, 55.2625253],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_2bf8863a99b60c26e661f4ccb4f3f5f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185f6ca55fb95369aa862aa13f68cb0c = $(`<div id="html_185f6ca55fb95369aa862aa13f68cb0c" style="width: 100.0%; height: 100.0%;">City Walk Dubai</div>`)[0];
+                popup_2bf8863a99b60c26e661f4ccb4f3f5f6.setContent(html_185f6ca55fb95369aa862aa13f68cb0c);
+            
+        
+
+        marker_a5467580db756de56d621c07c45a50e9.bindPopup(popup_2bf8863a99b60c26e661f4ccb4f3f5f6)
+        ;
+
+        
+    
+    
+            var marker_07735dec401f6742d66d5a722105fc6f = L.marker(
+                [25.1918143, 55.2429717],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_33d7ef1928dc40c6209008f9b0c28e17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1527741398b8907ab0975dee857a80c = $(`<div id="html_f1527741398b8907ab0975dee857a80c" style="width: 100.0%; height: 100.0%;">Dubai Water Canal</div>`)[0];
+                popup_33d7ef1928dc40c6209008f9b0c28e17.setContent(html_f1527741398b8907ab0975dee857a80c);
+            
+        
+
+        marker_07735dec401f6742d66d5a722105fc6f.bindPopup(popup_33d7ef1928dc40c6209008f9b0c28e17)
+        ;
+
+        
+    
+    
+            var marker_059d422617b7a4471e39b00fbf86c64c = L.marker(
+                [25.2048493, 55.2707828],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_af97f28c5e56935c3849f3af9b3bd6e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf9347e4fc2073ebba3de08dd0c170f5 = $(`<div id="html_cf9347e4fc2073ebba3de08dd0c170f5" style="width: 100.0%; height: 100.0%;">Dubai Parks & resorts</div>`)[0];
+                popup_af97f28c5e56935c3849f3af9b3bd6e0.setContent(html_cf9347e4fc2073ebba3de08dd0c170f5);
+            
+        
+
+        marker_059d422617b7a4471e39b00fbf86c64c.bindPopup(popup_af97f28c5e56935c3849f3af9b3bd6e0)
+        ;
+
+        
+    
+    
+            var marker_74351ae416f76b4b7180a92919d1ca84 = L.marker(
+                [25.2171003, 55.3613635],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_6e4e50a0d7bd13a6c4f7cb45ec645c67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_468336b979b23e840f4e3914925b2ef7 = $(`<div id="html_468336b979b23e840f4e3914925b2ef7" style="width: 100.0%; height: 100.0%;">Dubai Festival City</div>`)[0];
+                popup_6e4e50a0d7bd13a6c4f7cb45ec645c67.setContent(html_468336b979b23e840f4e3914925b2ef7);
+            
+        
+
+        marker_74351ae416f76b4b7180a92919d1ca84.bindPopup(popup_6e4e50a0d7bd13a6c4f7cb45ec645c67)
+        ;
+
+        
+    
+    
+            var marker_29aa35f4019c75bcad9068e6b4244612 = L.marker(
+                [25.2167973, 55.25240119999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_52b96ed87c310bc2f80b7709f41e148e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8287659a0f30ff9a0817822cd01eb7 = $(`<div id="html_3f8287659a0f30ff9a0817822cd01eb7" style="width: 100.0%; height: 100.0%;">Mercato Mall </div>`)[0];
+                popup_52b96ed87c310bc2f80b7709f41e148e.setContent(html_3f8287659a0f30ff9a0817822cd01eb7);
+            
+        
+
+        marker_29aa35f4019c75bcad9068e6b4244612.bindPopup(popup_52b96ed87c310bc2f80b7709f41e148e)
+        ;
+
+        
+    
+    
+            var marker_8e1f4c8cddff4f0b606e86acf347843b = L.marker(
+                [25.1647598, 55.2076246],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_dc2b17a05abfee1c50860388df9116c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc4fd7b2060345a99a472b4c5933ef35 = $(`<div id="html_bc4fd7b2060345a99a472b4c5933ef35" style="width: 100.0%; height: 100.0%;">Kite Beach</div>`)[0];
+                popup_dc2b17a05abfee1c50860388df9116c5.setContent(html_bc4fd7b2060345a99a472b4c5933ef35);
+            
+        
+
+        marker_8e1f4c8cddff4f0b606e86acf347843b.bindPopup(popup_dc2b17a05abfee1c50860388df9116c5)
+        ;
+
+        
+    
+    
+            var marker_64194b258e7177dbed1b4b04f22e88bd = L.marker(
+                [47.6156405, -122.3393721],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_8ec2bd47b93e7e2f60b5a45995cc6dab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_633f3a92e55bb80d17ebae8591ef72e2 = $(`<div id="html_633f3a92e55bb80d17ebae8591ef72e2" style="width: 100.0%; height: 100.0%;">Deep Dive</div>`)[0];
+                popup_8ec2bd47b93e7e2f60b5a45995cc6dab.setContent(html_633f3a92e55bb80d17ebae8591ef72e2);
+            
+        
+
+        marker_64194b258e7177dbed1b4b04f22e88bd.bindPopup(popup_8ec2bd47b93e7e2f60b5a45995cc6dab)
+        ;
+
+        
+    
+    
+            var marker_a0235657c5a0dff02cd13b43faed2573 = L.marker(
+                [41.89015939999999, -87.6246018],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_27ac85d7b63310f4e0ae8df197153ff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_01371238b0633e99ce58a03c0925c862 = $(`<div id="html_01371238b0633e99ce58a03c0925c862" style="width: 100.0%; height: 100.0%;">Wings of Mexico</div>`)[0];
+                popup_27ac85d7b63310f4e0ae8df197153ff9.setContent(html_01371238b0633e99ce58a03c0925c862);
+            
+        
+
+        marker_a0235657c5a0dff02cd13b43faed2573.bindPopup(popup_27ac85d7b63310f4e0ae8df197153ff9)
+        ;
+
+        
+    
+    
+            var marker_f5dd4372d744e0ac1752b4379866e3e2 = L.marker(
+                [25.1124317, 55.13897799999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_62b939998259a2bec9f5325d94ede5dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b24a84e93fd7d1407c96dfe34342cd4f = $(`<div id="html_b24a84e93fd7d1407c96dfe34342cd4f" style="width: 100.0%; height: 100.0%;">Palm Jumeira Walk </div>`)[0];
+                popup_62b939998259a2bec9f5325d94ede5dd.setContent(html_b24a84e93fd7d1407c96dfe34342cd4f);
+            
+        
+
+        marker_f5dd4372d744e0ac1752b4379866e3e2.bindPopup(popup_62b939998259a2bec9f5325d94ede5dd)
+        ;
+
+        
+    
+    
+            var marker_841b019502e554000dd10e2b2f2f4a78 = L.marker(
+                [40.0231303, -83.013915],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_3a338043818ad76e702ebb79176b591e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_631ff6364788990eb1e07de5c534c7e2 = $(`<div id="html_631ff6364788990eb1e07de5c534c7e2" style="width: 100.0%; height: 100.0%;">Lavash Cafe</div>`)[0];
+                popup_3a338043818ad76e702ebb79176b591e.setContent(html_631ff6364788990eb1e07de5c534c7e2);
+            
+        
+
+        marker_841b019502e554000dd10e2b2f2f4a78.bindPopup(popup_3a338043818ad76e702ebb79176b591e)
+        ;
+
+        
+    
+    
+            var marker_faf33dd89ac6a9d0f6967fe36d666e11 = L.marker(
+                [25.1975134, 55.2785005],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_f47e2bd10c7ec62edef499781bd9aa7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8db2e5fb1ff0cf2f14cf03f43f8ec20a = $(`<div id="html_8db2e5fb1ff0cf2f14cf03f43f8ec20a" style="width: 100.0%; height: 100.0%;">Dubai Aquarium</div>`)[0];
+                popup_f47e2bd10c7ec62edef499781bd9aa7b.setContent(html_8db2e5fb1ff0cf2f14cf03f43f8ec20a);
+            
+        
+
+        marker_faf33dd89ac6a9d0f6967fe36d666e11.bindPopup(popup_f47e2bd10c7ec62edef499781bd9aa7b)
+        ;
+
+        
+    
+    
+            var marker_1e61f5f1227e7b5c4b8b56a20ff5b970 = L.marker(
+                [25.1913069, 55.275239],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_59474cd2477182a16cb2cbfab3d1db24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f72bee7b69f52f5ead65fe9e3296f07 = $(`<div id="html_6f72bee7b69f52f5ead65fe9e3296f07" style="width: 100.0%; height: 100.0%;">Downtown Slide</div>`)[0];
+                popup_59474cd2477182a16cb2cbfab3d1db24.setContent(html_6f72bee7b69f52f5ead65fe9e3296f07);
+            
+        
+
+        marker_1e61f5f1227e7b5c4b8b56a20ff5b970.bindPopup(popup_59474cd2477182a16cb2cbfab3d1db24)
+        ;
+
+        
+    
+    
+            var marker_7a1f52488fb67204585350c83917a77a = L.marker(
+                [25.1980575, 55.27341209999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_23eb15268943cd38bbfde028123ba89a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f43be575b3246b09ec61a2a949a9053f = $(`<div id="html_f43be575b3246b09ec61a2a949a9053f" style="width: 100.0%; height: 100.0%;">Burj park </div>`)[0];
+                popup_23eb15268943cd38bbfde028123ba89a.setContent(html_f43be575b3246b09ec61a2a949a9053f);
+            
+        
+
+        marker_7a1f52488fb67204585350c83917a77a.bindPopup(popup_23eb15268943cd38bbfde028123ba89a)
+        ;
+
+        
+    
+    
+            var marker_81a00d4fcc7174985486522cbcbfd5ff = L.marker(
+                [25.0798929, 55.1222025],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_e44fd6c4bd573136979c2e2b5262d859 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da4bb1d4270bc6941ea64934daefb0fe = $(`<div id="html_da4bb1d4270bc6941ea64934daefb0fe" style="width: 100.0%; height: 100.0%;">Bluewater island</div>`)[0];
+                popup_e44fd6c4bd573136979c2e2b5262d859.setContent(html_da4bb1d4270bc6941ea64934daefb0fe);
+            
+        
+
+        marker_81a00d4fcc7174985486522cbcbfd5ff.bindPopup(popup_e44fd6c4bd573136979c2e2b5262d859)
+        ;
+
+        
+    
+    
+            var marker_8f706b890400124f1435c35fe5265805 = L.marker(
+                [25.0600069, 55.24446469999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_081ddb911965506c0057865e30e544b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e52318a6a49d99a5c60edd2dbab462a8 = $(`<div id="html_e52318a6a49d99a5c60edd2dbab462a8" style="width: 100.0%; height: 100.0%;">Miracle Garden</div>`)[0];
+                popup_081ddb911965506c0057865e30e544b5.setContent(html_e52318a6a49d99a5c60edd2dbab462a8);
+            
+        
+
+        marker_8f706b890400124f1435c35fe5265805.bindPopup(popup_081ddb911965506c0057865e30e544b5)
+        ;
+
+        
+    
+    
+            var marker_4e2f262163209d575cbfd8a4672e6771 = L.marker(
+                [25.117204, 55.1983112],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_dcfa528e81cd745f3c57fc5061000880 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f491c0298deb24e9e09e1bb45d786c82 = $(`<div id="html_f491c0298deb24e9e09e1bb45d786c82" style="width: 100.0%; height: 100.0%;">Ski Dubai</div>`)[0];
+                popup_dcfa528e81cd745f3c57fc5061000880.setContent(html_f491c0298deb24e9e09e1bb45d786c82);
+            
+        
+
+        marker_4e2f262163209d575cbfd8a4672e6771.bindPopup(popup_dcfa528e81cd745f3c57fc5061000880)
+        ;
+
+        
+    
+    
+            var marker_e9f75a81caf47cd5e00939555fcc9c46 = L.marker(
+                [25.1331644, 55.1862234],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_a3dce24903a3230ee82a7938374ecc36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a5443e29eb5539b8a4f5e7f0fec352c3 = $(`<div id="html_a5443e29eb5539b8a4f5e7f0fec352c3" style="width: 100.0%; height: 100.0%;">Souk Madinet Jumerah</div>`)[0];
+                popup_a3dce24903a3230ee82a7938374ecc36.setContent(html_a5443e29eb5539b8a4f5e7f0fec352c3);
+            
+        
+
+        marker_e9f75a81caf47cd5e00939555fcc9c46.bindPopup(popup_a3dce24903a3230ee82a7938374ecc36)
+        ;
+
+        
+    
+    
+            var marker_a07970c6cadb5395f533e9038660bea2 = L.marker(
+                [25.1866742, 55.3019726],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_44728305b878ccee66c685e3c2bc17ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1e3f50c3fb84b783797ba7fd208d1f9 = $(`<div id="html_b1e3f50c3fb84b783797ba7fd208d1f9" style="width: 100.0%; height: 100.0%;">Dubai Design District</div>`)[0];
+                popup_44728305b878ccee66c685e3c2bc17ce.setContent(html_b1e3f50c3fb84b783797ba7fd208d1f9);
+            
+        
+
+        marker_a07970c6cadb5395f533e9038660bea2.bindPopup(popup_44728305b878ccee66c685e3c2bc17ce)
+        ;
+
+        
+    
+    
+            var marker_f76db44937930be221bba636921e790c = L.marker(
+                [25.114025, 55.14028829999999],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_a178d41abc79e70fa4be6267dece29ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc5928777a4f93206653f4361d10a9e7 = $(`<div id="html_cc5928777a4f93206653f4361d10a9e7" style="width: 100.0%; height: 100.0%;">Aura Skypool</div>`)[0];
+                popup_a178d41abc79e70fa4be6267dece29ad.setContent(html_cc5928777a4f93206653f4361d10a9e7);
+            
+        
+
+        marker_f76db44937930be221bba636921e790c.bindPopup(popup_a178d41abc79e70fa4be6267dece29ad)
+        ;
+
+        
+    
+    
+            var marker_104e9362a50075229e1d5bf912f82ff4 = L.marker(
+                [25.1318102, 55.1200862],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_c09ddecd8bf465c3096900c5f8b9014f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca48cd37f36cf568f70f2ccbe48ea956 = $(`<div id="html_ca48cd37f36cf568f70f2ccbe48ea956" style="width: 100.0%; height: 100.0%;">Dubai Balloon</div>`)[0];
+                popup_c09ddecd8bf465c3096900c5f8b9014f.setContent(html_ca48cd37f36cf568f70f2ccbe48ea956);
+            
+        
+
+        marker_104e9362a50075229e1d5bf912f82ff4.bindPopup(popup_c09ddecd8bf465c3096900c5f8b9014f)
+        ;
+
+        
+    
+    
+            var marker_cf4df7029fb8ebee4005dd9973049417 = L.marker(
+                [25.116333, 55.1677827],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_097991cbbf5bdd2754a4ad646da1ec71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd5368f02f55a3b8a04b461e423fd2a0 = $(`<div id="html_bd5368f02f55a3b8a04b461e423fd2a0" style="width: 100.0%; height: 100.0%;">Al Soufouh Beach</div>`)[0];
+                popup_097991cbbf5bdd2754a4ad646da1ec71.setContent(html_bd5368f02f55a3b8a04b461e423fd2a0);
+            
+        
+
+        marker_cf4df7029fb8ebee4005dd9973049417.bindPopup(popup_097991cbbf5bdd2754a4ad646da1ec71)
+        ;
+
+        
+    
+    
+            var marker_db75a00475ff45b0a27abbc34f2c6947 = L.marker(
+                [25.2266634, 55.2557005],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_bb1e7912c3428897e5ba921adbde77ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3517dfc42cc335fac58e0f7212836e6 = $(`<div id="html_b3517dfc42cc335fac58e0f7212836e6" style="width: 100.0%; height: 100.0%;">La Mer Beach</div>`)[0];
+                popup_bb1e7912c3428897e5ba921adbde77ad.setContent(html_b3517dfc42cc335fac58e0f7212836e6);
+            
+        
+
+        marker_db75a00475ff45b0a27abbc34f2c6947.bindPopup(popup_bb1e7912c3428897e5ba921adbde77ad)
+        ;
+
+        
+    
+    
+            var marker_7335ba6b960d61cb95caaf95188c32f9 = L.marker(
+                [25.303905, 55.3490889],
+                {}
+            ).addTo(map_8f74a6ab48aaf02cb78e0ee424f81337);
+        
+    
+        var popup_bfdda85bd4b94907eeb052154496e693 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92acde31defae2affb19793d63e06954 = $(`<div id="html_92acde31defae2affb19793d63e06954" style="width: 100.0%; height: 100.0%;">Al Mamzar Beach</div>`)[0];
+                popup_bfdda85bd4b94907eeb052154496e693.setContent(html_92acde31defae2affb19793d63e06954);
+            
+        
+
+        marker_7335ba6b960d61cb95caaf95188c32f9.bindPopup(popup_bfdda85bd4b94907eeb052154496e693)
+        ;
+
+        
+    
+</script>
+</html>
